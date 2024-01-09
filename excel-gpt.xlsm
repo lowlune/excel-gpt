@@ -6,7 +6,7 @@ Function GPT(text As String, Optional word_count As Long = 0) As String
 
     'API Info
     API = "https://api.openai.com/v1/chat/completions"
-    api_key = "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" ' Replace with your actual API key
+    api_key = "YOUR-API-KEY" ' Replace with your actual API key
 
     'Modify Input Text
     If word_count > 0 Then
